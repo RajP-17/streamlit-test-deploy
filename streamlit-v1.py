@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 from datetime import datetime, timedelta
-import randoms
+import random
 import math
 import plotly.graph_objects as go
 import plotly.express as px
