@@ -192,7 +192,7 @@ def generate_report(report_type):
 # ===== Sidebar Navigation =====
 
 st.sidebar.title("NAVAIR T1 Monitoring")
-st.sidebar.image("https://via.placeholder.com/150x80?text=NAVAIR", use_column_width=True)
+st.sidebar.image("https://via.placeholder.com/150x80?text=NAVAIR", use_container_width=True)
 
 nav_selection = st.sidebar.radio(
     "Navigation",
